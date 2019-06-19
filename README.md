@@ -64,4 +64,4 @@ GearVR and Oculus Go controllers have less buttons than the Vive controllers. Th
 - A click on the top edge of the trackpad maps to the press of the System button on the original Vive controller.
 - A click on the bottom edge of the trackpad maps to the press of the Menu button on the original Vive controller.
 - There is no analog trigger button. Games requiring analog trigger have limited functionality.
-- The Back button on the GearVR/Go remote exists the app.
+- The Back button on the GearVR/Go remote exits the app.
