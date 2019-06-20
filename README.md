@@ -11,13 +11,13 @@ ReLive VR requires a VR capable AMD graphics card, Windows 10 and 5GHz 802.11ac 
 For best expirience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.6.2 or newer.
 ## Enabling Radeon ReLive VR on the PC
 Ensure that Radeon ReLive components of Adrenalin driver are installed. Install them during driver installation or, if the driver is already installed, do the following:
-- Ensure that Steam and SteamVR are installed on the PC
-- Start Radeon Settings
-- Click on the *ReLive* tab at the bottom of the Radeon Settings window and toggle the *ReLive* switch ON
-- Install ReLive if prompted
-- Click on the *Game & VR Streaming* tab in Radeon Settings and toggle the *SteamVR Integration* switch ON
-- Start SteamVR
-- Perform Room Setup for Standing Experience. When prompted to calibrate the floor, enter your height in either centimeters or inches (170cm or 67" work well for most people)
+- Ensure that Steam and SteamVR are installed on the PC.
+- Start Radeon Settings.
+- Click on the *ReLive* tab at the bottom of the Radeon Settings window and toggle the *ReLive* switch ON.
+- Install ReLive if prompted.
+- Click on the *Game & VR Streaming* tab in Radeon Settings and toggle the *SteamVR Integration* switch ON.
+- Start SteamVR.
+- Perform Room Setup for Standing Experience. When prompted to calibrate the floor, enter your height in either centimeters or inches (170cm or 67" work well for most people).
 
 ## Side-loading the ReLive VR app on Oculus Quest and Oculus Go
 - Set up the headset and create an Oculus account (most likely you have already done this)
@@ -34,7 +34,7 @@ Ensure that Radeon ReLive components of Adrenalin driver are installed. Install 
 
 ## Side-loading the ReLive VR app on GearVR
 - Dock the phone into the GearVR headset and follow the on-screen prompts to install the Oculus software (most likely you have done this already).
-- Copy the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.9.apk "APK File") to your phone using any method (USB, download via Google Drive, Dropbox, etc)
+- Copy the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.9.apk "APK File") to your phone using any method (USB, download via Google Drive, Dropbox, etc).
 - Install the [Injector for GearVR app](https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en_CA "Injector for GearVR app") on your phone. Launch the Injector app and tap on *SELECT APK*. Navigate to the location where you have placed the ReLive VR APK and tap on it. Follow the on-screen prompts to install the ReLive VR app.
 - Launch the app and dock the phone into the GearVR headset.
 
@@ -47,11 +47,11 @@ To change the headset being emulated, follow these simple steps:
 
 ## Configure the WiFi Connection
 You will need a Wireless-AC 5GHz router with gigabit Ethernet LAN ports to use ReLive VR. Wireless-N or 100Mbps Ethernet **do not** provide enough throughput for good wireless VR experience.
-- Connect the PC to the LAN port of your 5GHz router with an Ethernet cable (Cat-6 is recommended)
+- Connect the PC to the LAN port of your 5GHz router with an Ethernet cable (Cat-6 is recommended).
 - Configure your headset/phone to connect to the 5GHz SSID of your router. AC routers broadcast at least two (sometimes more) distinct SSIDs - one for the 2.4GHz band and one (or more) for the 5GHz one. The 5GHz SSIDs are usually denoted by the '5', '5G' or 'AC' suffix in the default name.
 
 ## Running the App
-- Start SteamVR on your PC. If you are running it for the first time, Windows Firewall might ask to allow incoming traffic to SteamVR/vrserver.exe. Allow it for the network type you're using (Private, Domain or Public)
+- Start SteamVR on your PC. If you are running it for the first time, Windows Firewall might ask to allow incoming traffic to SteamVR/vrserver.exe. Allow it for the network type you're using (Private, Domain or Public).
 - Start the ReLive VR for Oculus app on your headset. You might have to wake up your controller(s) by pressing the Oculus button on it. The headset would find the PC on the network and connect automatically. You should find yourself in SteamVR Home.
 
 ## Controller Emulation and Button Mappings
@@ -60,8 +60,8 @@ Oculus Quest controllers' keys map to Oculus Touch controls one-to-one.
 
 GearVR and Oculus Go controllers have less buttons than the Vive controllers. The following limitations apply:
 - Controller position is emulated using the elbow model
-- The grip key of the Vive controller is not available on GearVR/Go controllers
-- A click on the top edge of the trackpad maps to the press of the System button on the original Vive controller.
-- A click on the bottom edge of the trackpad maps to the press of the Menu button on the original Vive controller.
-- There is no analog trigger button. Games requiring analog trigger have limited functionality.
-- The Back button on the GearVR/Go remote exits the app.
+- The *grip* button of the Vive controller is not available on GearVR/Go controllers
+- A click on the top edge of the trackpad maps to the press of the System button on the original Vive controller
+- A click on the bottom edge of the trackpad maps to the press of the Menu button on the original Vive controller
+- There is no analog *trigger* button. Games requiring analog trigger might have limited functionality
+- The *Back* button on the GearVR/Go remote exits the app
