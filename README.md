@@ -1,5 +1,5 @@
 # Radeon ReLive VR on Oculus Devices
-ReLive VR must be sideloaded to Oculus devices due to Oculus Store policy restrictions. For Vive Focus/Focus Plus and Daydream-compatible devices, install the app from the respective appstore (Viveport or Google Play).
+ReLive VR must be sideloaded to Oculus devices due to Oculus Store policy restrictions. For Vive Focus/Focus Plus and Daydream-compatible devices, install the app from the respective appstore ([Viveport](https://www.viveport.com/mobileapps/a7bf3400-3652-4cc9-b2da-f0263e1c1f9d "Viveport") or [Google Play](https://play.google.com/store/apps/details?id=com.amd.wirelessgvr&hl=en_CA "Google Play")).
 
 The following Oculus headsets are supported:
 - Oculus Quest
