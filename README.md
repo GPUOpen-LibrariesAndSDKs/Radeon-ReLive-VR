@@ -23,7 +23,7 @@ Ensure that Radeon ReLive components of Adrenalin driver are installed. Install 
 - Set up the headset and create an Oculus account (most likely you have already done this)
 - Install the *Oculus* app on your smartphone or tablet from Google Play or Apple Appstore
 - Register as Oculus Developer. On your PC go to the  [Oculus Developer Dashboard](https://dashboard.oculus.com "Oculus Developer Dashboard") and click on the *Create New Organization* button. Add your Oculus account as a developer to the organization you have created.
-- Open the Oculus mobile app, select your Oculus Quest or Go headset and go to the *Settings *tab. Tap on *More Settings *and enable *Developer Mode* (if you do not see the *Developer Mode*  option, try rebooting your phone). Restart your headset.
+- Open the Oculus mobile app, select your Oculus Quest or Go headset and go to the *Settings* tab. Tap on *More Settings* and enable *Developer Mode* (if you do not see the *Developer Mode*  option, try rebooting your phone). Restart your headset.
 - On your PC [download](https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/ "download") the Oculus USB driver. Once the download finishes, extract the zip file into a folder and install the driver by right-clicking on the *android_winusb.inf* file and select *Install* from the pop-up menu.
 - Download [ADB, the Android Debugger](https://developer.android.com/studio/releases/platform-tools "ADB, the Android Debugger") and unzip it to a folder on your PC.
 - Connect your headset to the USB port of your PC.
