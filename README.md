@@ -29,7 +29,7 @@ Ensure that Radeon ReLive components of Adrenalin driver are installed. Install 
 - Connect your headset to the USB port of your PC.
 - Download the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.9.apk "APK file") from this repo.
 - Navigate to the folder where you unzipped ADB in Windows Explorer, and type `cmd` + Enter in the address bar. This will open the command prompt window. In this window type the `adb install -r <path to apk>` command and hit the *Enter* key. Replace `<path to apk>` with the actual path where you have downloaded the ReLive VR apk. For example, if you downloaded *ReLiveVR-Oculus-1.0.8.apk* to *C:\Users\JohnDoe\Downloads*, the command should look like this: `adb install -r "c:\Users\JohnDoe\Downloads\ReLiveVR\ReLiveVR-Oculus-1.0.8.apk"`. This will install the ReLive VR app onto your headset. You should see the "Success" message once the loading process is complete.
-- In you headset select *Library* and then *Unknown Sources*. Reboot the headset if *Unknown Sources* does not appear under *Library*.
+- In your headset select *Library* and then *Unknown Sources*. Reboot the headset if *Unknown Sources* does not appear under *Library*.
 - Now you should be able to see and launch the AMD ReLive VR application.
 
 ## Side-loading the ReLive VR app on GearVR
