@@ -43,7 +43,7 @@ Radeon ReLive VR emulates a wired headset, making VR applications think that the
 To change the headset being emulated, follow these simple steps:
 - Open Windows Explorer, type `cmd` and press *Enter* in the address bar. Once the command prompt window opens, type the following command `echo %LOCALAPPDATA%` and hit *Enter*. It will print the path to your local user data folder - take a note of it. 
 - In Windows Explorer, click on the *View* tab and check the *Hidden items* checkbox. Navigate to the folder you noted in the previous step, find the *AMD\OpenVR\settings* folder and right-click on the *settings.json* file inside (if the folder or the file isn't there, just enable *SteamVR Integration* in Radeon Settings and start SteamVR). Select *Open with* from the menu and open the file with *Notepad*.
-- In the "*Application*" section find the line that reads `"HeadsetProfile" : "HTC Valve",` and change "*HTC Valve*" to "*Oculus Rift CV1*", preserving case and spaces. Save the file and restart SteamVR.
+- In the "*Application*" section find the line that reads `"HeadsetProfile" : "HTC Vive",` and change "*HTC Vive*" to "*Oculus Rift CV1*", preserving case and spaces. Save the file and restart SteamVR.
 
 ## Configure the WiFi Connection
 You will need a Wireless-AC 5GHz router with gigabit Ethernet LAN ports to use ReLive VR. Wireless-N or 100Mbps Ethernet **do not** provide enough throughput for good wireless VR experience.
