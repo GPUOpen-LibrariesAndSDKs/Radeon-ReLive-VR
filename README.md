@@ -8,7 +8,7 @@ The following Oculus headsets are supported:
 
 General information about ReLive VR can be found at [Radeon ReLive VR page](https://www.amd.com/en/technologies/radeon-software-relive-vr "Radeon ReLive VR page")
 ReLive VR requires a VR capable AMD graphics card, Windows 10 and 5GHz 802.11ac router. 
-For best expirience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.6.2 or newer.
+For best expirience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.6.2 or newer (required for Oculus Rift Touch controllers emulation on Quest).
 ## Enabling Radeon ReLive VR on the PC
 Ensure that Radeon ReLive components of Adrenalin driver are installed. Install them during driver installation or, if the driver is already installed, do the following:
 - Ensure that Steam and SteamVR are installed on the PC.
@@ -46,7 +46,7 @@ To change the headset being emulated, follow these simple steps:
 - In the "*Application*" section find the line that reads `"HeadsetProfile" : "HTC Vive",` and change "*HTC Vive*" to "*Oculus Rift CV1*", preserving case and spaces. Save the file and restart SteamVR.
 
 ## Configure the WiFi Connection
-You will need a Wireless-AC 5GHz router with gigabit Ethernet LAN ports to use ReLive VR. Wireless-N or 100Mbps Ethernet **do not** provide enough throughput for good wireless VR experience.
+You will need a Wireless-AC 5GHz router with a Gigabit Ethernet LAN port to use ReLive VR. Wireless-N or 100Mbps Ethernet **do not** provide enough throughput for good wireless VR experience.
 - Connect the PC to the LAN port of your 5GHz router with an Ethernet cable (Cat-6 is recommended).
 - Configure your headset/phone to connect to the 5GHz SSID of your router. AC routers broadcast at least two (sometimes more) distinct SSIDs - one for the 2.4GHz band and one (or more) for the 5GHz one. The 5GHz SSIDs are usually denoted by the '5', '5G' or 'AC' suffix in the default name.
 
