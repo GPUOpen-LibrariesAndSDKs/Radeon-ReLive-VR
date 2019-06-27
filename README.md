@@ -8,7 +8,7 @@ The following Oculus headsets are supported:
 
 General information about ReLive VR can be found at [Radeon ReLive VR page](https://www.amd.com/en/technologies/radeon-software-relive-vr "Radeon ReLive VR page")
 ReLive VR requires a VR capable AMD graphics card, Windows 10 and 5GHz 802.11ac router. 
-For best expirience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.6.2 or newer (required for Oculus Rift Touch controllers emulation on Quest).
+For best experience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.6.2 or newer (required for Oculus Rift Touch controllers emulation on Quest).
 ## Enabling Radeon ReLive VR on the PC
 Ensure that Radeon ReLive components of Adrenalin driver are installed. Install them during driver installation or, if the driver is already installed, do the following:
 - Ensure that Steam and SteamVR are installed on the PC.
@@ -43,7 +43,7 @@ Radeon ReLive VR emulates a wired headset, making VR applications think that the
 To change the headset being emulated, follow these simple steps:
 - Open Windows Explorer, type `cmd` and press *Enter* in the address bar. Once the command prompt window opens, type the following command `echo %LOCALAPPDATA%` and hit *Enter*. It will print the path to your local user data folder - take a note of it. 
 - In Windows Explorer, click on the *View* tab and check the *Hidden items* checkbox. Navigate to the folder you noted in the previous step, find the *AMD\OpenVR\settings* folder and right-click on the *settings.json* file inside (if the folder or the file isn't there, just enable *SteamVR Integration* in Radeon Settings and start SteamVR). Select *Open with* from the menu and open the file with *Notepad*.
-- In the "*Application*" section find the line that reads `"HeadsetProfile" : "HTC Vive",` and change "*HTC Vive*" to "*Oculus Rift CV1*", preserving case and spaces. Save the file and restart SteamVR.
+- In the "*Application*" section find the line that reads `"HeadsetProfile" : "HTC Vive",` and change "*HTC Vive*" to "*Oculus Rift CV1*", preserving case and spaces. Save the file and restart SteamVR. **Note:** this functionality is available in Adrenalin driver version 19.6.2 or newer only.
 
 ## Configure the WiFi Connection
 You will need a Wireless-AC 5GHz router with a Gigabit Ethernet LAN port to use ReLive VR. Wireless-N or 100Mbps Ethernet **do not** provide enough throughput for good wireless VR experience.
@@ -60,8 +60,8 @@ Oculus Quest controllers' keys map to Oculus Touch controls one-to-one.
 
 GearVR and Oculus Go controllers have less buttons than the Vive controllers. The following limitations apply:
 - Controller position is emulated using the elbow model
-- The *grip* button of the Vive controller is not available on GearVR/Go controllers
+- The *Grip* button of the Vive controller is not available on GearVR/Go controllers
 - A click on the top edge of the trackpad maps to the press of the *System* button on the original Vive controller
 - A click on the bottom edge of the trackpad maps to the press of the *Menu* button on the original Vive controller
-- There is no analog *trigger* button. Games requiring analog trigger might have limited functionality
+- There is no analog *Trigger* button. Games requiring analog trigger might have limited functionality
 - The *Back* button on the GearVR/Go remote exits the app
