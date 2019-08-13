@@ -27,14 +27,14 @@ Ensure that Radeon ReLive components of Adrenalin driver are installed. Install 
 - On your PC [download](https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/ "download") the Oculus USB driver. Once the download finishes, extract the zip file into a folder and install the driver by right-clicking on the *android_winusb.inf* file and select *Install* from the pop-up menu.
 - Download [ADB, the Android Debugger](https://developer.android.com/studio/releases/platform-tools "ADB, the Android Debugger") and unzip it to a folder on your PC.
 - Connect your headset to the USB port of your PC.
-- Download the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.15.apk "APK file") from this repo.
+- Download the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.16.apk "APK file") from this repo.
 - Navigate to the folder where you unzipped ADB in Windows Explorer, and type `cmd` + Enter in the address bar. This will open the command prompt window. In this window type the `adb install -r <path to apk>` command and hit the *Enter* key. Replace `<path to apk>` with the actual path where you have downloaded the ReLive VR apk. For example, if you downloaded *ReLiveVR-Oculus-1.0.8.apk* to *C:\Users\JohnDoe\Downloads*, the command should look like this: `adb install -r "c:\Users\JohnDoe\Downloads\ReLiveVR\ReLiveVR-Oculus-1.0.8.apk"`. This will install the ReLive VR app onto your headset. You should see the "Success" message once the loading process is complete.
 - In your headset select *Library* and then *Unknown Sources*. Reboot the headset if *Unknown Sources* does not appear under *Library*.
 - Now you should be able to see and launch the AMD ReLive VR application.
 
 ## Side-loading the ReLive VR app on GearVR
 - Dock the phone into the GearVR headset and follow the on-screen prompts to install the Oculus software (most likely you have done this already).
-- Copy the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.15.apk "APK File") to your phone using any method (USB, download via Google Drive, Dropbox, etc).
+- Copy the latest ReLive VR [APK file](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/raw/master/ReLiveVR-Oculus-1.0.16.apk "APK File") to your phone using any method (USB, download via Google Drive, Dropbox, etc).
 - Install the [Injector for GearVR app](https://play.google.com/store/apps/details?id=com.zgsbrgr.gearvr.injector&hl=en_CA "Injector for GearVR app") on your phone. Launch the Injector app and tap on *SELECT APK*. Navigate to the location where you have placed the ReLive VR APK and tap on it. Follow the on-screen prompts to install the ReLive VR app.
 - Launch the app and dock the phone into the GearVR headset.
 
