@@ -8,7 +8,7 @@ The following Oculus headsets are supported:
 
 General information about ReLive VR can be found at [Radeon ReLive VR page](https://www.amd.com/en/technologies/radeon-software-relive-vr "Radeon ReLive VR page")
 ReLive VR requires a VR capable AMD graphics card, Windows 10 and 5GHz 802.11ac router. 
-For best experience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.8.1 or newer (required for Oculus Rift Touch controllers emulation on Quest).
+For best experience use [Adrenalin driver](https://www.amd.com/en/support "Adrenalin driver") v19.2.2 or newer (required for Oculus Rift Touch controllers emulation on Quest).
 
 ## Setup and Troubleshooting
 [Setting Up ReLive VR](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/wiki/Setting-up-ReLive-VR)
