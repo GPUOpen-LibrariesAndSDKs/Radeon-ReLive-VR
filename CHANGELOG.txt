@@ -1,4 +1,5 @@
-1.0.19 - Fixed audio cutting out under certain conditions
+1.0.20 - Improved latency
+1.0.19 - Fixed audio cutting out under certain conditions, added foveated scaling
 1.0.18 - Audio fixes
 1.0.17 - Fixed audio cutting off after some time on some combination of device… 
 1.0.16 - Fixed an incorrect controller position adjustment resulting in controller jump at certain angles
