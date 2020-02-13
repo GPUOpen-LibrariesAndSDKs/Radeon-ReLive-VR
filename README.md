@@ -20,4 +20,4 @@ For best experience use [Adrenalin driver](https://www.amd.com/en/support "Adren
 ## Setup and Troubleshooting
 [Setting Up ReLive VR](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/wiki/Setting-up-ReLive-VR)
 
-For more information about configuring, using and troubleshooting ReLive VR please visit our [Wiki](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/wiki).
+For more information about configuring, using and [troubleshooting](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/wiki/Troubleshooting) ReLive VR please visit our [Wiki](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/wiki).
