@@ -1,3 +1,4 @@
+1.0.22 - Fixed a bug causing ReLive VR to fail to connect when multiple servers were present on the network
 1.0.21 - Removed the requirement for GearVR hand controller. Fixed incorrect launch intent handling on Quest
 1.0.20 - Improved latency
 1.0.19 - Fixed audio cutting out under certain conditions, added foveated scaling
