@@ -1,9 +1,9 @@
 # Latest Announcements
-The latest [Radeon Software Adrenalin 2020 Edition 20.3.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.3.1-mar19.exe) and the latest [ReLive VR app](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/blob/master/ReLiveVR-Oculus-1.0.20.apk) add foveated scaling, improve overall latency and resolve the issue of some Oculus games running under ReVive getting stuck.
+The latest [Radeon Software Adrenalin 2020 Edition 20.3.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.3.1-mar19.exe) and the latest [ReLive VR app](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/blob/master/ReLiveVR-Oculus-1.0.23.apk) add foveated scaling, improve overall latency and resolve the issue of some Oculus games running under ReVive getting stuck.
 
 The same improvements are available for HTC Vive Focus Plus and Lenovo Mirage Solo/Daydream on Viveport and Google Play respectively.
 
-We highly recommend that you update you Adrenalin driver to [Radeon Software Adrenalin 2020 Edition 20.3.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.3.1-mar19.exe) for best experience.
+We highly recommend that you update you Adrenalin driver to [Radeon Software Adrenalin 2020 Edition 20.5.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.5.1-june10.exe) or newer for best experience.
 
 # Radeon ReLive VR on Oculus Devices
 ReLive VR must be sideloaded to Oculus devices due to Oculus Store policy restrictions. For Vive Focus/Focus Plus and Daydream-compatible devices, install the app from the respective appstore ([Viveport](https://www.viveport.com/mobileapps/a7bf3400-3652-4cc9-b2da-f0263e1c1f9d "Viveport") or [Google Play](https://play.google.com/store/apps/details?id=com.amd.wirelessgvr&hl=en_CA "Google Play")).
