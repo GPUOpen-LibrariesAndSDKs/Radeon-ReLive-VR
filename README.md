@@ -1,5 +1,5 @@
 # Latest Announcements
-The latest [Radeon Software Adrenalin 2020 Edition 20.3.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.3.1-mar19.exe) and the latest [ReLive VR app](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/blob/master/ReLiveVR-Oculus-1.0.23.apk) add foveated scaling, improve overall latency and resolve the issue of some Oculus games running under ReVive getting stuck.
+The latest [ReLive VR app](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/blob/master/ReLiveVR-Oculus-1.0.25.apk) adds full support for Oculus Quest2.
 
 The same improvements are available for HTC Vive Focus Plus and Lenovo Mirage Solo/Daydream on Viveport and Google Play respectively.
 
