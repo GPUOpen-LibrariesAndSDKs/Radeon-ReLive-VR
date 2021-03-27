@@ -1,9 +1,14 @@
 # Latest Announcements
-The latest [ReLive VR app](https://github.com/GPUOpen-LibrariesAndSDKs/Radeon-ReLive-VR/blob/master/ReLiveVR-Oculus-1.0.25.apk) adds full support for Oculus Quest2.
+Regretfully, the latest [Adrenalin 2020 Edition 21.3.1 driver](https://drivers.amd.com/drivers/radeon-software-adrenalin-2020-21.3.1-win10-64bit-mar24.exe) has introduced a regression that leads to a crash in SteamVR in certain circumstances. We have identified the root cause and are working on the fix. In the meantime, if you are experiencing this crash, you can avoid it by following these simple steps:
 
-The same improvements are available for HTC Vive Focus Plus and Lenovo Mirage Solo/Daydream on Viveport and Google Play respectively.
+- Open the c:\Users\<your user name>\AppData\Local\AMD\OpenVR\settings\settings.json file in a text editor, or if you are using the ReLive VR Web UI, navigate to the Streaming tab
+- Set the EncoderResolution width and height (Encoder Resolution in the Web UI) to 1472x1472 for RX470/480/580/590/5500 and Vega/Radeon VII or 1600x1600 for RX5x00/6x00.
+- Set the EyeResolution width and height (Render Resolution in the Web UI) to 1600x1600 for for RX470/480/580/590/5500 and Vega/Radeon VII or to 1900x1900 for RX5x00/6x00.
+- Save the settings.json file or click on the Apply button in the Web UI.
+- Restart SteamVR.
+You can experiment with different values, just make sure that the values for Render Resolution are greater than the values for the Encoder Resolution.
 
-We highly recommend that you update you Adrenalin driver to [Radeon Software Adrenalin 2020 Edition 20.5.1](https://drivers.amd.com/drivers/beta/win10-radeon-software-adrenalin-2020-edition-20.5.1-june10.exe) or newer for best experience.
+We apologize for the inconvenience and are working to deliver the fix as quickly as possible.
 
 # Radeon ReLive VR on Oculus Devices
 ReLive VR must be sideloaded to Oculus devices due to Oculus Store policy restrictions. For Vive Focus/Focus Plus and Daydream-compatible devices, install the app from the respective appstore ([Viveport](https://www.viveport.com/mobileapps/a7bf3400-3652-4cc9-b2da-f0263e1c1f9d "Viveport") or [Google Play](https://play.google.com/store/apps/details?id=com.amd.wirelessgvr&hl=en_CA "Google Play")).
