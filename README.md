@@ -3,8 +3,6 @@ ReLive VR must be sideloaded to Oculus devices due to Oculus Store policy restri
 
 The following Oculus headsets are supported:
 - Oculus Quest
-- Oculus Go
-- GearVR with Samsung Galaxy S7 or newer
 
 General information about ReLive VR can be found at [Radeon ReLive VR page](https://www.amd.com/en/technologies/radeon-software-relive-vr "Radeon ReLive VR page")
 ReLive VR requires a VR capable AMD graphics card, Windows 10 and 5GHz 802.11ac router. 
