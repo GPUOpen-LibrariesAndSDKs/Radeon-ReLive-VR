@@ -1,3 +1,4 @@
+1.0.26 - Bug fix for the bitrate not going above 50Mbps with Adrenalin 21.6.1 driver
 1.0.25 - Support for 90Hz display on Quest2, fixed a memory leak while looking for servers
 1.0.23 - Fixed a bug causing distortion on the right side of the frame at certain resolutions
 1.0.22 - Fixed a bug causing ReLive VR to fail to connect when multiple servers were present on the network
